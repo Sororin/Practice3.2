@@ -12,6 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ## Homework
 
 This is a practice homework for R class
+# perfect
 
 ```{r homework}
 # create a data frame 
@@ -35,7 +36,8 @@ WEIGHT_LOSS <- list(rownames(diet),
                     data.table(subject,weight_loss)
                     )
 
-message <- "It's a little difficult for me to remember everything taught in class. However, after practicing these homework, I now understand that manipulating data in R is actually more effient"
+message <- "It's a little difficult for me to remember everything taught in class. However, after practicing this homework, I now understand that manipulating data in R is actually more efficient."
+# Don't worry; it is normal. But by practicing, it will become more and more natural.  Eventually, many things you do now will become very easy with time. Keep working hard on it, then it will be smooth :)
 
 BUBBLE_DIET <- list(diet,
                     WEIGHT_LOSS,
